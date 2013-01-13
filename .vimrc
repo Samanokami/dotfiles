@@ -29,19 +29,19 @@ au BufWrite /private/etc/pw.* set nowritebackup
 	set foldmethod=indent "折りたたみ
 
 "Vundle
-	"filetype off
-	"set rtp+=~/.vim/vundle.git/ 
-	"call vundle#rc()
-	"Bundle 'gmarik/vundle'
-	"
-	"" github にあるプラグイン
-	"Bundle 'jcf/vim-latex.git'
-	"" vim-scripts プラグイン
-	"
-	"" github にないプラグイン
-	" 
-	"" ファイル形式検出、プラグイン、インデントを ON
-	"filetype plugin indent on 
+	filetype off
+	set rtp+=~/.vim/vundle.git/ 
+	call vundle#rc()
+	Bundle 'gmarik/vundle'
+	
+	" github にあるプラグイン
+	Bundle 'jcf/vim-latex.git'
+	" vim-scripts プラグイン
+	
+	" github にないプラグイン
+	 
+	" ファイル形式検出、プラグイン、インデントを ON
+	filetype plugin indent on 
 
 " Vim-LaTeX
 	filetype plugin on
