@@ -87,4 +87,4 @@ $RECYCLE.BIN/
 #For Submodule
 $HOME/.vim/budle/vundle
 doc/tags
-doc/tags-ja
+#doc/tags-ja
