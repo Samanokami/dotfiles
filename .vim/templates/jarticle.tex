@@ -1,0 +1,23 @@
+<+	+>	!comp!	!exe!
+%        File: !comp!expand("%:p:t")!comp!
+%     Created: !comp!strftime("%a %b %d %I:00 %p %Y ").substitute(strftime('%Z'), '\<\(\w\)\(\w*\)\>\(\W\|$\)', '\1', 'g')!comp!
+% Last Change: !comp!strftime("%a %b %d %I:00 %p %Y ").substitute(strftime('%Z'), '\<\(\w\)\(\w*\)\>\(\W\|$\)', '\1', 'g')!comp!
+%
+% macro ルビ usage: \ruby{漢}{かん}\ruby{字}{じ}
+% macro くの字 usage: \kunoji{く}
+
+\documentclass[a4j]{jarticle}
+\usepackage{fancyhdr,kunten2e}
+\pagestyle{fancy}
+\rhead{11510111 Hirasawa Toshiya}
+\cfoot{\thepage}
+\title{<++>}
+\author{平澤 稔也 11510111 日本文学科}
+\date{<++>}
+
+\begin{document}
+\maketitle
+%\thispagestyle{empty}
+%1ページだけのときは、これを使う
+<++>
+\end{document}
